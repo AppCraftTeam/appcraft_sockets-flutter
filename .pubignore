@@ -1,0 +1,31 @@
+# Keeps the published archive down to the package itself. This file replaces
+# .gitignore for `dart pub publish`, so the build artifacts listed there are
+# repeated here.
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.packages
+build/
+
+# The runnable sample lives in example/; the full chat demo is a separate
+# Flutter application and is only useful from the repository.
+examples/
+.metadata

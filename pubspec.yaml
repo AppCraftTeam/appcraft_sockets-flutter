@@ -1,0 +1,22 @@
+name: appcraft_sockets
+description: Typed WebSocket client with automatic reconnect and an application-defined message type registry. Runs on mobile, desktop and web.
+version: 0.0.1
+repository: https://github.com/AppCraftTeam/appcraft-sockets-flutter
+issue_tracker: https://github.com/AppCraftTeam/appcraft-sockets-flutter/issues
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  web: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
