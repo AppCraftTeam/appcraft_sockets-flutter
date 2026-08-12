@@ -1,5 +1,8 @@
 # appcraft_sockets
 
+[![Pub Version](https://img.shields.io/pub/v/appcraft_sockets)](https://pub.dev/packages/appcraft_sockets)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A typed WebSocket client for Flutter that stays connected.
 
 The package knows nothing about your protocol. You register the message types
